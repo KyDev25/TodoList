@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+
+body {
+    background: linear-gradient(100deg, rgb(67, 67, 93), rgb(87, 61, 65));
+}
+
+.form-container {
+    background: rgba(27, 23, 23, 0.555);
+    color: white;
+    text-align: center;
+    margin: 50px 150px 150px;
+    border-radius: 30px;
+    padding-bottom: 20px;
+}
+
+.form-container h1 {
+    padding-top: 20px;
+    text-shadow: 1px 1px 2px violet;
+}
+
+.form-container form input[type="text"] {
+    border-radius: 15px;
+    border: solid 2px rgb(167, 143, 167);
+    background: linear-gradient(30deg, rgb(87, 24, 87), rgb(181, 32, 181));
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    box-shadow: 0 0 5px 0.5px #d3d3d378;
+    color: rgb(230, 217, 229);
+}
+
+.form-container form input[type="text"]::placeholder {
+    color: rgb(230, 217, 229);
+}
+
+.form-container form button {
+    border-radius: 15px;
+    border: solid 2px rgb(167, 143, 167);
+    background: linear-gradient(30deg, rgb(87, 24, 87), rgb(181, 32, 181));
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+    box-shadow: 0 0 5px 0.5px #d3d3d378;
+    color: rgb(28, 27, 27);
+    transition: 0.2s;
+}
+
+.form-container form button:hover {
+  font-style: italic;
+}
+
+.form-container ul li {
+    text-align: left;
+    margin: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.form-container ul li:hover {
+    content: "(supprimer)";
+    color: violet;
+    transition: 0.3s;
+    font-style: italic;
+}
+
+.form-container ul li:hover:after {
+    content: " (supprimer)";
+    color: violet;
+    font-size: 12px;
+    font-style: italic;
+    transition: 0.3s;
+}
+
