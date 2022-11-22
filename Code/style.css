@@ -61,7 +61,6 @@ body {
 }
 
 .form-container ul li:hover {
-    content: "(supprimer)";
     color: violet;
     transition: 0.3s;
     font-style: italic;
